@@ -2,9 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on My Lair</title>
-    <link>http://happyhacker22.me/tags/</link>
+    <link>http://happyhacker22.com/tags/</link>
     <description>Recent content in Tags on My Lair</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://happyhacker22.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 Aug 2023 16:07:58 +0700</lastBuildDate><atom:link href="http://happyhacker22.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cryptography</title>
+      <link>http://happyhacker22.com/tags/cryptography/</link>
+      <pubDate>Wed, 30 Aug 2023 16:07:58 +0700</pubDate>
+      
+      <guid>http://happyhacker22.com/tags/cryptography/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>RSA</title>
+      <link>http://happyhacker22.com/tags/rsa/</link>
+      <pubDate>Wed, 30 Aug 2023 16:07:58 +0700</pubDate>
+      
+      <guid>http://happyhacker22.com/tags/rsa/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
   </channel>
 </rss>
