@@ -3,6 +3,7 @@ title = "About"
 date = "2023-08-30"
 author = "HappyHacker22"
 draft = false
+color = "white"
 +++
 
 # Hello

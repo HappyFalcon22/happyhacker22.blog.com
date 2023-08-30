@@ -2,6 +2,7 @@
 title: "Nice"
 author: "HappyHacker22"
 draft: false
+color: "lightgreen"
 ---
 
 Nice, here's your flag
