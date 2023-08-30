@@ -1,3 +1,0 @@
-User-agent: *
-Disallow: /fl4g_1s_h3r3
-Disallow: /dark_secrets
