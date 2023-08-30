@@ -1,21 +1,88 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cryptography on My Lair</title>
-    <link>http://happyhacker22.com/tags/cryptography/</link>
-    <description>Recent content in Cryptography on My Lair</description>
+    <title>Cryptography on </title>
+    <link>https://happyhacker22.github.io/tags/cryptography/</link>
+    <description>Recent content in Cryptography on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Aug 2023 16:07:58 +0700</lastBuildDate><atom:link href="http://happyhacker22.com/tags/cryptography/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Aug 2023 16:07:58 +0700</lastBuildDate><atom:link href="https://happyhacker22.github.io/tags/cryptography/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rsa</title>
-      <link>http://happyhacker22.com/posts/cryptography/rsa/</link>
+      <link>https://happyhacker22.github.io/posts/cryptography/rsa/</link>
       <pubDate>Wed, 30 Aug 2023 16:07:58 +0700</pubDate>
       
-      <guid>http://happyhacker22.com/posts/cryptography/rsa/</guid>
+      <guid>https://happyhacker22.github.io/posts/cryptography/rsa/</guid>
       <description>Hi</description>
       <content>&lt;p&gt;Hi&lt;/p&gt;
 </content>
+    </item>
+    
+    <item>
+      <title>Cryptography Book Content Tracker</title>
+      <link>https://happyhacker22.github.io/posts/my-first-post/</link>
+      <pubDate>Tue, 29 Aug 2023 12:32:52 +0700</pubDate>
+      
+      <guid>https://happyhacker22.github.io/posts/my-first-post/</guid>
+      <description>Content tracking Book name : An Introduction to Mathematical Cryptography
+Contents Chapter 1 : An Introduction to Cryptography Simple substitution ciphers 😀
+Divisibility and greatest common divisors
+Modular arithmetics
+Prime numbers, unique factorization, and finite fields
+Powers and primitive roots in finite fields
+Cryptography before the computer age
+Symmetric and asymmetric ciphers
+Exercises
+Chapter 2 : Discrete logarithms and Diffie-Hellman The birth of public key cryptography The discrete logarithm problem Diffie–Hellman key exchange The ElGamal public key cryptosystem An overview of the theory of groups How hard is the discrete logarithm problem?</description>
+      <content>&lt;h1 id=&#34;content-tracking&#34;&gt;Content tracking&lt;/h1&gt;
+&lt;p&gt;Book name : &lt;em&gt;&lt;strong&gt;An Introduction to Mathematical Cryptography&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;h1 id=&#34;contents&#34;&gt;Contents&lt;/h1&gt;
+&lt;h2 id=&#34;chapter-1--an-introduction-to-cryptography&#34;&gt;Chapter 1 : An Introduction to Cryptography&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Simple substitution ciphers 😀&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Divisibility and greatest common divisors&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Modular arithmetics&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Prime numbers, unique factorization, and finite fields&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Powers and primitive roots in finite fields&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Cryptography before the computer age&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Symmetric and asymmetric ciphers&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Exercises&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;chapter-2--discrete-logarithms-and-diffie-hellman&#34;&gt;Chapter 2 : Discrete logarithms and Diffie-Hellman&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The birth of public key cryptography&lt;/li&gt;
+&lt;li&gt;The discrete logarithm problem&lt;/li&gt;
+&lt;li&gt;Diffie–Hellman key exchange&lt;/li&gt;
+&lt;li&gt;The ElGamal public key cryptosystem&lt;/li&gt;
+&lt;li&gt;An overview of the theory of groups&lt;/li&gt;
+&lt;li&gt;How hard is the discrete logarithm problem?&lt;/li&gt;
+&lt;li&gt;A collision algorithm for the DLP&lt;/li&gt;
+&lt;li&gt;The Chinese remainder theorem&lt;/li&gt;
+&lt;li&gt;The Pohlig–Hellman algorithm&lt;/li&gt;
+&lt;li&gt;Rings, quotients, polynomials, and finite fields&lt;/li&gt;
+&lt;li&gt;Exercises&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;\(\int_a^b f(x)\)
+$$1 + 2 \approx 4$$
+\[\int_a^b f(x)\]&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-Python&#34; data-lang=&#34;Python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hi&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
     </item>
     
   </channel>

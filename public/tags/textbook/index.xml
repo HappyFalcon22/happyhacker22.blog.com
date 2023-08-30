@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on </title>
-    <link>https://happyhacker22.github.io/posts/</link>
-    <description>Recent content in Posts on </description>
+    <title>Textbook on </title>
+    <link>https://happyhacker22.github.io/tags/textbook/</link>
+    <description>Recent content in Textbook on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Aug 2023 16:07:58 +0700</lastBuildDate><atom:link href="https://happyhacker22.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Rsa</title>
-      <link>https://happyhacker22.github.io/posts/cryptography/rsa/</link>
-      <pubDate>Wed, 30 Aug 2023 16:07:58 +0700</pubDate>
-      
-      <guid>https://happyhacker22.github.io/posts/cryptography/rsa/</guid>
-      <description>Hi</description>
-      <content>&lt;p&gt;Hi&lt;/p&gt;
-</content>
-    </item>
-    
+    <lastBuildDate>Tue, 29 Aug 2023 12:32:52 +0700</lastBuildDate><atom:link href="https://happyhacker22.github.io/tags/textbook/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cryptography Book Content Tracker</title>
       <link>https://happyhacker22.github.io/posts/my-first-post/</link>
