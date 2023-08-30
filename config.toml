@@ -38,7 +38,13 @@ description = "My personal blog site in my career"
     weight = 10
 
   [[menu.main]]
-    identifier = "Crypto (Note)"
-    name = "Crypto (Note)"
+    identifier = "Crypto (Hoffstein)"
+    name = "Crypto (Hoffstein)"
     url = "/crypto_hoffstein"
+    weight = 5
+
+  [[menu.main]]
+    identifier = "Crypto (Lindell)"
+    name = "Crypto (Lindell)"
+    url = "/crypto_lindell"
     weight = 5
