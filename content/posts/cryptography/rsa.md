@@ -11,7 +11,6 @@ description = "Post about RSA"
 showFullContent = false
 readingTime = false
 hideComments = false
-color = "green" #color from the theme settings
 +++
 
 Hi
