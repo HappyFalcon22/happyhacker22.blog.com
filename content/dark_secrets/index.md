@@ -2,7 +2,7 @@
 title: "More private infos"
 date: 2023-08-30T16:42:00+07:00
 draft: false
-color: yellow
+color: "yellow"
 ---
 
 Wow, you found this site, good !
