@@ -23,7 +23,6 @@ Book name : ***An Introduction to Mathematical Cryptography***
 ## Chapter 1 : An Introduction to Cryptography
 
 + Simple substitution ciphers :grinning_face:
-
 + Divisibility and greatest common divisors
 + Modular arithmetics
 + Prime numbers, unique factorization, and finite fields
