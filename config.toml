@@ -36,3 +36,9 @@ description = "My personal blog site in my career"
     name = "ZKP"
     url = "/zkp"
     weight = 10
+
+  [[menu.main]]
+    identifier = "Crypto (Note)"
+    name = "Crypto (Note)"
+    url = "/crypto_hoffstein"
+    weight = 5
