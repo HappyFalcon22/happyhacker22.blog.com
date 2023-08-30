@@ -1,7 +1,7 @@
 ---
 title: "Intro"
 date: 2023-08-30T16:55:07+07:00
-draft: true
+draft: false
 color: "green"
 description: "Intro to my series of Zero-Knowledge Proofs topics and concepts"
 tags: ["ZKP", "Introduction"]
