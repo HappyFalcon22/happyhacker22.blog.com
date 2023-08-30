@@ -1,0 +1,11 @@
+baseURL = 'http://happyhacker22.com/'
+languageCode = 'en-us'
+title = 'My Lair'
+theme = 'terminal'
+enableEmoji = true
+enableRobotsTXT = true
+sectionPagesMenu = 'main'
+
+[params]
+Title = "Hey, I’m Joel 👋"
+Content = "I am a Front-end Engineer & Technical Writer. I enjoy creating interactive solutions with JavaScript. On my blog, I write about code (mostly JavaScript and React) and everything I learn. I’m actively exploring the world of web3 and blockchain technology."
