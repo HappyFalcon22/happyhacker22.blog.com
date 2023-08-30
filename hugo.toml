@@ -9,3 +9,29 @@ sectionPagesMenu = 'main'
 title = "HappyHacker22's Blog"
 author = "HappyHacker22"
 description = "My personal blog site in my career"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blogs"
+    url = "/posts"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "learn"
+    name = "Roadmap"
+    url = "/roadmaps"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "zkp"
+    name = "ZKP"
+    url = "/zkp"
+    weight = 10
