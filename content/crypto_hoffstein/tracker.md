@@ -1,17 +1,14 @@
-+++
-title = "Cryptography Book Content Tracker"
-date = 2023-08-29T12:32:52+07:00
-draft = false
++++   
+title = "Content Tracker"
+date = 2023-08-31T21:02:42+07:00
 author = "HappyHacker22"
-color = "red"
-hideComments = false
-keywords = ["Cryptography", "Math", "Textbook"]
-tags = ["Cryptography", "Math", "Textbook"]
-description = "This post serves as a track record of contents I have learned in the text book ***An Introduction to Mathematical Cryptography***."
-enableEmoji = true
+draft = false
 katex = true
+color = "green"
+description = "A list of contents in the book `An Introduction to Mathematical Cryptography`"
+tag = ["track", "content", "cryptography"]
+enableEmoji = true
 +++
-
 
 # Content tracking
 
@@ -45,10 +42,3 @@ Book name : ***An Introduction to Mathematical Cryptography***
 + Rings, quotients, polynomials, and finite fields 
 + Exercises
 
-\\(\int_a^b f(x)\\)
-$$1 + 2 \approx 4$$
-\\[\int_a^b f(x)\\]
-
-```Python
-print("Hi")
-```
