@@ -52,5 +52,5 @@ description = "My personal blog site in my career"
   [[menu.main]]
     identifier = "image_processing_and_computer_vision"
     name = "Image Processing and Computer Vision"
-    url = "/digital_image_processing_and_computer_vision/"
+    url = "/digital_image_processing_and_computer_vision"
     weigt = 10
