@@ -5,7 +5,7 @@ author = "HappyHacker22"
 draft = false
 katex = true
 color = "blue"
-description "Solutions for exercise Chapter 1 : `An Introduction to Cryptography`"
+description = "Solutions for exercise Chapter 1 : `An Introduction to Cryptography`"
 tag = ["cryptography", "hoffstein", "exercise"]
 enableEmoji = true
 +++

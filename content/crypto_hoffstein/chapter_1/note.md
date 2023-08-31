@@ -5,7 +5,7 @@ author = "HappyHacker22"
 draft = false
 katex = true
 color = "pink"
-description "Notes from Chapter 1 : `An Introduction to Cryptography`"
+description = "Notes from Chapter 1 : `An Introduction to Cryptography`"
 tag = ["notes", "hoffstein", "cryptography"]
 enableEmoji = true
 +++
