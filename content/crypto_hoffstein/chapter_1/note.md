@@ -10,5 +10,21 @@ tag = ["notes", "hoffstein", "cryptography"]
 enableEmoji = true
 +++
 
-This is the note
+# Chapter 1 : An Introduction to Cryptography
+
+## Simple substitution ciphers
+
+## Divisibility and greatest common divisors
+
+## Modular arithmetics
+
+## Prime numbers, unique factorization, and finite fields
+
+## Powers and primitive roots in finite fields
+
+## Cryptography before the computer age
+
+## Symmetric and asymmetric ciphers
+
+
 
