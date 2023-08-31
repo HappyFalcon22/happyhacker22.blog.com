@@ -10,7 +10,7 @@ tag = ["cryptography", "hoffstein", "exercise"]
 enableEmoji = true
 +++
 
-I suggest reading the Chapter 1 material or you can have a look of the note [here](/crypto_hoffstein/chapter_1/note/)
+I suggest reading the Chapter 1 material or you can have a look of the note [here](//crypto_hoffstein/chapter_1/note/)
 
 
 
