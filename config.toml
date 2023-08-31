@@ -48,3 +48,9 @@ description = "My personal blog site in my career"
     name = "Crypto (Lindell)"
     url = "/crypto_lindell"
     weight = 5
+
+  [[menu.main]]
+    identifier = "Image Processing and Computer Vision"
+    name = "Image Processing and Computer Vision"
+    url = "digital_image_processing_and_computer_vision/"
+    weigt = 10
