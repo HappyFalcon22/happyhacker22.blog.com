@@ -38,19 +38,19 @@ description = "My personal blog site in my career"
     weight = 10
 
   [[menu.main]]
-    identifier = "Crypto (Hoffstein)"
+    identifier = "crypto_hoffstein"
     name = "Crypto (Hoffstein)"
     url = "/crypto_hoffstein"
     weight = 5
 
   [[menu.main]]
-    identifier = "Crypto (Lindell)"
+    identifier = "crypto_lindell"
     name = "Crypto (Lindell)"
     url = "/crypto_lindell"
     weight = 5
 
   [[menu.main]]
-    identifier = "Image Processing and Computer Vision"
+    identifier = "image_processing_and_computer_vision"
     name = "Image Processing and Computer Vision"
-    url = "digital_image_processing_and_computer_vision/"
+    url = "/digital_image_processing_and_computer_vision/"
     weigt = 10
