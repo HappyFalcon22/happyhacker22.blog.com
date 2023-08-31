@@ -5,9 +5,9 @@ draft: false
 color: "red"
 ---
 
-Wow, you found this site, good !
+Wow, you found this site, good ! Here are more facts about me :
 
-+ I am an introvert, I rarely have many friends.
++ I am an introvert.
 + My birth is 02-02-2002
 + Aquarius
 + I am a fan of T1
