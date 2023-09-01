@@ -14,9 +14,9 @@ enableEmoji = true
 
 ## Simple substitution ciphers
 
-In this section, we explore the most fundamental cipher that almost anyone (including non-cryptographers) knows about : <ins> ***Caesar Cipher*** </ins>, named in honor of ***Julius Caesar***
+In this section, we explore the most fundamental cipher that almost anyone (including non-cryptographers) knows about : ***Caesar Cipher***, named in honor of ***Julius Caesar***
 
-![Caesar](./../images/Caesar.jpg)
+<img src="./../images/Caesar.jpg" width="200" height="500">
 
 ## Divisibility and greatest common divisors
 
