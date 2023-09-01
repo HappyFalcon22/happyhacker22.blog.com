@@ -16,7 +16,7 @@ enableEmoji = true
 
 In this section, we explore the most fundamental cipher that almost anyone (including non-cryptographers) knows about : ***Caesar Cipher***, named in honor of ***Julius Caesar***
 
-<img src="./../images/Caesar.jpg" width="200" height="500">
+<img src="./../images/Caesar.jpg" width="200" height="500"/>
 
 ## Divisibility and greatest common divisors
 
