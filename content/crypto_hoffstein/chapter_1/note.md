@@ -38,7 +38,7 @@ In practice, this cipher is completely broken, as if Bob receives the ciphertext
 
 To make the cipher harder to attack, Bob can instead encrypt each letter in the alphabet with a different letter in the same alphabet. For example, Bob can replace `p` with `a`, `c` with `z`, etc. This idea derives a new cipher : ***simple substitution cipher***, that is, a cipher that each letter is replaced with another letter in the alphabet. This cipher can be described as the rule of function :
 
-\\[ \left{ a, b, c, d, e, f, g, h, ..., x, y, z \right. \longleftarrow \right{ A, B, C, D, E, F, G, H, ..., X, Y, Z \right. \\]
+\\[ \left{ a, b, c, d, e, f, g, h, ..., x, y, z \right. \longleftarrow \left{ A, B, C, D, E, F, G, H, ..., X, Y, Z \right. \\]
 
 assigning each plaintext letter in the domain a different ciphertext letter in the range. This function can be described as a **subtitution table**, for example : 
 
