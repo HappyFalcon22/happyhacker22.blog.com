@@ -45,7 +45,7 @@ assigning each plaintext letter in the domain a different ciphertext letter in t
 
 | a | b | c | d | e | f | g | h | i | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x | y | z |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Y | A | D | F | Z | I | J | W | U | T | O | Q | C | B | L | X | Q | V | E | G | H | N | U | S | I | K |
+| Y | A | D | F | Z | P | J | W | U | T | O | R | C | B | L | X | Q | V | E | G | H | N | M | S | I | K |
 
 Note that, a letter can be replaced by the same letter, it is still count as a substitution.
 
