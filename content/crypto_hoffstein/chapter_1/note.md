@@ -208,20 +208,20 @@ This section covers some of the most basic definitions in Number theory : divisi
 
 <ins> **Divisibility** </ins>
 
-> Let $a$ and $b$ be integers with $b \neq 0$. We say that $b$ ***divides*** $a$, or $a$ ***is divisible by*** $b$ if there is an integer $c$ such that
-> $$a = bc$$
+> Let \\(a\\) and \\(b\\) be integers with \\(b \neq 0\\). We say that \\(b\\( ***divides*** \\(a\\), or \\(a\\) ***is divisible by*** \\(b\\) if there is an integer \\(c\\) such that
+> \\(a = bc\\)
 
-We notate that $b | a$ to indicate that $b$ divides $a$, $b \nmid a$ otherwise
+We notate that \\(b | a\\) to indicate that \\(b\\) divides \\(a\\), \\(b \nmid a\\) otherwise
 
 Note that :
-+ All integers is divisible by $1$
-+ Integers that is divisible by $2$ are even integers, otherwise, they are odd integers.
++ All integers is divisible by \\(1\\)
++ Integers that is divisible by \\(2\\) are even integers, otherwise, they are odd integers.
 
 I will state some interesting properties of divisibility without proving it since that will be the exercise later on this chapter :
 
-+ If $a | b$ and $b | c$, then $a | c$
-+ If $a | b$ and $b | a$, then $a = \pm b$
-+ If $a | b$ and $a | c$, then $a | (b + c)$ and $a | (b - c)$
++ If \\(a | b\\) and \\(b | c\\), then \\(a | c\\)
++ If \\(a | b\\) and \\(b | a\\), then \\(a = \pm b\\)
++ If \\(a | b\\) and \\(a | c\\), then \\(a | (b + c)\\) and \\(a | (b - c)\\)
 
 Let us move on to ***greatest common divisors***
 
