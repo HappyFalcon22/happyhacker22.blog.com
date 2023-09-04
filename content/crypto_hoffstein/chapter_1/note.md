@@ -209,7 +209,7 @@ This section covers some of the most basic definitions in Number theory : divisi
 <ins> **Divisibility** </ins>
 
 > Let \\(a\\) and \\(b\\) be integers with \\(b \neq 0\\). We say that \\(b\\) ***divides*** \\(a\\), or \\(a\\) ***is divisible by*** \\(b\\) if there is an integer \\(c\\) such that
-> \\(a = bc\\)
+> \\[a = bc\\]
 
 We notate that \\(b | a\\) to indicate that \\(b\\) divides \\(a\\), \\(b \nmid a\\) otherwise
 
@@ -229,7 +229,7 @@ A ***common divisor*** of two integers \\(a\\) and \\(b\\) is a positive integer
 
 Notation of greatest common divisor : \\(gcd(a, b)\\).
 
-Let \\(a\\) and \\(b\\) be positive integers. Then \\(a\\) divided by \\(b\\) has ***quotient*** \\(q\\) and ***remainder*** \\(r\\), mean that : $$a = qb + r, \;with\;\; 0 \leq r \lt b$$
+Let \\(a\\) and \\(b\\) be positive integers. Then \\(a\\) divided by \\(b\\) has ***quotient*** \\(q\\) and ***remainder*** \\(r\\), mean that : $$a = qb + r, \\;with\\;\\; 0 \leq r \lt b$$
 
 
 
