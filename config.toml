@@ -6,6 +6,9 @@ enableRobotsTXT = true
 sectionPagesMenu = 'main'
 configDir = "root/"
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [params]
 title = "HappyHacker22's Blog"
 author = "HappyHacker22"

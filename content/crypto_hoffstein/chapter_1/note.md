@@ -20,7 +20,13 @@ Firstly, I want to put some of the definitions here :
 + **cryptography - cryptology** :
 + **cryptic** :
 
-In this section, we explore the most fundamental cipher that almost anyone (including non-cryptographers) knows about : ***Caesar Cipher***, named in honor of ***Julius Caesar***. Basically, the cipher encrypts the *plaintext* by shifting each letter in it by a constant, unknown amount (we call this the *key*), the result of this action forms the *ciphertext*. In more mathematical terms, the ***Shift Cipher*** is the cipher : 
+In this section, we explore the most fundamental cipher that almost anyone (including non-cryptographers) knows about : ***Caesar Cipher***, named in honor of ***Julius Caesar***. 
+
+<center>
+<img src="./images/Caesar.jpg" width="250" height="250">
+</center>
+
+Basically, the cipher encrypts the *plaintext* by shifting each letter in it by a constant, unknown amount (we call this the *key*), the result of this action forms the *ciphertext*. In more mathematical terms, the ***Shift Cipher*** is the cipher : 
 + Has the alphabet : \\( A \\) of length \\( a \\)
 + A key : \\( 0 \leq k < A \\)
 + Plaintext : \\( m = m_1m_2m_3...m_n \\)
