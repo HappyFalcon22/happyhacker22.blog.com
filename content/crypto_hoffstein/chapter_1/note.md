@@ -12,7 +12,7 @@ enableEmoji = true
 
 # Chapter 1 : An Introduction to Cryptography
 
-## Simple substitution ciphers
+## 1. Simple substitution ciphers
 
 Firstly, I want to put some of the definitions here :
 + **plaintext** :
@@ -59,9 +59,15 @@ Why is it that doing this will make the cipher hard to break ? Statistically, th
 
 But, in practice, this cipher is still breakable (easily, in fact). Let's look at the small subsection.
 
-### Cryptanalysis of simple substitution ciphers
+### 1.1. Cryptanalysis of simple substitution ciphers
 
 In definition, **cryptanalysis** means the art of decrypting the ciphertext without any knowledge about the encryption key of a cipher.
+
+This section also teaches us a very important lesson about the practical side of the science of cryptography :
+
+> Your opponent always uses her/his best strategy to defeat you, not the strategy that you want her/him to use. Thus, the security of an encryption system depends on the ***best known method*** to break that system. As new and improved methods are developed, the level of security can only get words, never better.
+
+When Bob uses the simple substitution cipher, he expects Alice to try the exhausted search for the key, which is infeasible in above mentions. But Bob should not feel safe because she has another trick in her sleeve : `frequency analysis`.
 
 Now, what makes the substitution cipher breakable is that *the plaintext is human-readable* (yes, as we see in later chapters, the plaintext can be unmeaningful to be readable). Hence, there is an invariant ***letter frequency*** from each language (English, Turkey, Thailand, Vietnamese, etc). Just take a random \\( 100000 \\) letters' paragraph and calculate the ratio of each letter in that paragraph. For example, in English, the letter frequency table is shown here :
 
@@ -81,19 +87,56 @@ Now, what makes the substitution cipher breakable is that *the plaintext is huma
 |     l    |       3.39      |     y    |       1.98      |
 |     m    |       2.54      |     z    |       0.08      |
 
+Therefore, the ciphertext should have a nearly-identical probability distribution as the above distribution, with the only difference is that the letters holding the probability are just permutated. 
+
+The same analysis can be conducted on ***bigrams*** and ***trigrams***, so I will simply state these elements in decreasing order of frequencies :
++ Letters : `e, t, a, o, n, r, ....` : which follows from a famous nonsense phrase : `etaoin shrdlu`
++ Bigrams : `th, he, in, en, nt, re, er, an, ti, ...`
++ Trigrams : `the, and, tha, ent, ing, ion, tio, for, ...`
+
+Using these interesting facts, Alice can now perform cryptanalysis on Bob's ciphertext:
+
+## 1.2. The attack
+
+Alice gets Bob's ciphertext by asking him to share her since he is confident that his cipher is totally secure : 
+
+```
+IT FXBZE, ZERXBYEXBZ JMM EIUZXRF, EJV EJV J PEJSWIXL ZX UZJLV BW TXR IZ; ZX UEXH J VXBQZILY HXRMV ZEJZ J PEIMV PJL ZEILD; JLV, WXUUIQMF, VX IZ WRJPZIPJMMF; FXB HXBMVL'Z PXLUZJLZMF RBL JPRXUU TXMDU ZXVJF HEX PMJIS ZEJZ "J PEIMV VXL'Z DLXH JLFZEILY." J PEIMV'U QRJIL UZJRZU TBLPZIXLILY JZ QIRZE; JLV EJU, JSXLYUZ IZU SJLF ILTJLZ PXLKXMBZIXLU, ZEXBUJLVU XT VXRSJLZ JZXSU, ILZX HEIPE YXV EJU WBZ J SFUZIP WXUUIQIMIZF TXR LXZIPILY JL JVBMZ'U JPZ, JLV TIYBRILY XBZ IZU WBRWXRZ. BW ZX JQXBZ IZU WRISJRF UPEXXM VJFU J PEIMV ZEILDU, LJZBRJMMF, XLMF XT WMJF. QBZ SJLF J TXRS XT WMJF PXLZJILU VIUPIWMILJRF TJPZXRU. "FXB PJL'Z VX ZEIU," XR "ZEJZ WBZU FXB XBZ," UEXHU J PEIMV ZEJZ IZ SBUZ ZEILD, WRJPZIPJMMF, XR TJIM. LXH, IT, ZERXBYEXBZ PEIMVEXXV, J QRJIL EJU LX XWWXUIZIXL, IZ IU WMJIL ZEJZ IZ HIMM JZZJIL J WXUIZIXL XT "UZJZBU CBX," JU HIZE XBR XRVILJRF JLISJMU. SJL DLXHU LXZ HEF J PXH, VXY XR MIXL HJU LXZ QXRL HIZE J QRJIL XL J WJR HIZE XBRU; HEF UBPE JLISJMU PJLLXZ JVV, UBQZRJPZ, XR XQZJIL TRXS QXXDU JLV UPEXXMILY, ZEJZ WJRJSXBLZ WXUIZIXL HEIPE SJL EXMVU ZXVJF. (ZEN TIRUZ WJRJYRJWE XT YJVUQF)
+```
+
+Firstly, let's remove the non-letters to focus only on letters : 
+
+```
+IT FXBZE  ZERXBYEXBZ JMM EIUZXRF  EJV EJV J PEJSWIXL ZX UZJLV BW TXR IZ  ZX UEXH J VXBQZILY HXRMV ZEJZ J PEIMV PJL ZEILD  JLV  WXUUIQMF  VX IZ WRJPZIPJMMF  FXB HXBMVL Z PXLUZJLZMF RBL JPRXUU TXMDU ZXVJF HEX PMJIS ZEJZ  J PEIMV VXL Z DLXH JLFZEILY   J PEIMV U QRJIL UZJRZU TBLPZIXLILY JZ QIRZE  JLV EJU  JSXLYUZ IZU SJLF ILTJLZ PXLKXMBZIXLU  ZEXBUJLVU XT VXRSJLZ JZXSU  ILZX HEIPE YXV EJU WBZ J SFUZIP WXUUIQIMIZF TXR LXZIPILY JL JVBMZ U JPZ  JLV TIYBRILY XBZ IZU WBRWXRZ  BW ZX JQXBZ IZU WRISJRF UPEXXM VJFU J PEIMV ZEILDU  LJZBRJMMF  XLMF XT WMJF  QBZ SJLF J TXRS XT WMJF PXLZJILU VIUPIWMILJRF TJPZXRU   FXB PJL Z VX ZEIU   XR  ZEJZ WBZU FXB XBZ   UEXHU J PEIMV ZEJZ IZ SBUZ ZEILD  WRJPZIPJMMF  XR TJIM  LXH  IT  ZERXBYEXBZ PEIMVEXXV  J QRJIL EJU LX XWWXUIZIXL  IZ IU WMJIL ZEJZ IZ HIMM JZZJIL J WXUIZIXL XT  UZJZBU CBX   JU HIZE XBR XRVILJRF JLISJMU  SJL DLXHU LXZ HEF J PXH  VXY XR MIXL HJU LXZ QXRL HIZE J QRJIL XL J WJR HIZE XBRU  HEF UBPE JLISJMU PJLLXZ JVV  UBQZRJPZ  XR XQZJIL TRXS QXXDU JLV UPEXXMILY  ZEJZ WJRJSXBLZ WXUIZIXL HEIPE SJL EXMVU ZXVJF   ZEN TIRUZ WJRJYRJWE XT YJVUQF
+```
+
+Secondly, we will produce the frequency table for this ciphertext : 
+
+| a | b | c | d | e | f | g | h | i | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x | y | z |      
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|      
+| 0 |34 | 1 | 7 |50 |27 | 0 |18 |73 |94 | 1 |68 |37 | 1 | 0 |32 |14 |41 |17 |18 |57 |34 |24 |94 |14 |92 |
+
+Im quite lazy to sort this...
+
+In English, the letter that stands itself as a word is highly `a`, so we can try to add to the substitution table `a -> J` and try reverting `J` to `a` :
+
+```
+IT FXBZE  ZERXBYEXBZ aMM EIUZXRF  EaV EaV a PEaSWIXL ZX UZaLV BW TXR IZ  ZX UEXH a VXBQZILY HXRMV ZEaZ a PEIMV PaL ZEILD  aLV  WXUUIQMF  VX IZ WRaPZIPaMMF  FXB HXBMVL Z PXLUZaLZMF RBL aPRXUU TXMDU ZXVaF HEX PMaIS ZEaZ  a PEIMV VXL Z DLXH aLFZEILY   a PEIMV U QRaIL UZaRZU TBLPZIXLILY aZ QIRZE  aLV EaU  aSXLYUZ IZU SaLF ILTaLZ PXLKXMBZIXLU  ZEXBUaLVU XT VXRSaLZ aZXSU  ILZX HEIPE YXV EaU WBZ a SFUZIP WXUUIQIMIZF TXR LXZIPILY aL aVBMZ U aPZ  aLV TIYBRILY XBZ IZU WBRWXRZ  BW ZX aQXBZ IZU WRISaRF UPEXXM VaFU a PEIMV ZEILDU  LaZBRaMMF  XLMF XT WMaF  QBZ SaLF a TXRS XT WMaF PXLZaILU VIUPIWMILaRF TaPZXRU   FXB PaL Z VX ZEIU   XR  ZEaZ WBZU FXB XBZ   UEXHU a PEIMV ZEaZ IZ SBUZ ZEILD  WRaPZIPaMMF  XR TaIM  LXH  IT  ZERXBYEXBZ PEIMVEXXV  a QRaIL EaU LX XWWXUIZIXL  IZ IU WMaIL ZEaZ IZ HIMM aZZaIL a WXUIZIXL XT  UZaZBU CBX   aU HIZE XBR XRVILaRF aLISaMU  SaL DLXHU LXZ HEF a PXH  VXY XR MIXL HaU LXZ QXRL HIZE a QRaIL XL a WaR HIZE XBRU  HEF UBPE aLISaMU PaLLXZ aVV  UBQZRaPZ  XR XQZaIL TRXS QXXDU aLV UPEXXMILY  ZEaZ WaRaSXBLZ WXUIZIXL HEIPE SaL EXMVU ZXVaF   ZEN TIRUZ WaRaYRaWE XT YaVUQF
+```
 
 
-## Divisibility and greatest common divisors
 
-## Modular arithmetics
+## 2. Divisibility and greatest common divisors
 
-## Prime numbers, unique factorization, and finite fields
+## 3. Modular arithmetics
 
-## Powers and primitive roots in finite fields
+## 4. Prime numbers, unique factorization, and finite fields
 
-## Cryptography before the computer age
+## 5. Powers and primitive roots in finite fields
 
-## Symmetric and asymmetric ciphers
+## 6. Cryptography before the computer age
+
+## 7. Symmetric and asymmetric ciphers
 
 
 
