@@ -23,7 +23,7 @@ Firstly, I want to put some of the definitions here :
 In this section, we explore the most fundamental cipher that almost anyone (including non-cryptographers) knows about : ***Caesar Cipher***, named in honor of ***Julius Caesar***. 
 
 <center>
-<img src="./images/Caesar.jpg" width="250" height="250">
+<img src="./../images/Caesar.jpg" width="250" height="250">
 </center>
 
 Basically, the cipher encrypts the *plaintext* by shifting each letter in it by a constant, unknown amount (we call this the *key*), the result of this action forms the *ciphertext*. In more mathematical terms, the ***Shift Cipher*** is the cipher : 
