@@ -110,8 +110,6 @@ Firstly, we will produce the frequency table for this ciphertext :
 <img src="./../images/freq.png" width="100%">
 </center>
 
-Im quite lazy to sort this...
-
 So, `G` has the highest frequency above all. We can be confident that this is from the letter `e`. Moreover, the only letter in English that forms a word by itself is `a`. Therefore, `J`, which stands by itself in the ciphertext is highly be `a`. Let's try to substitute :
 
 <code>
@@ -166,7 +164,7 @@ Naturally :
 Let's see :
 
 <code>
-n KacIet 14 sent WroR laKtoK to server, there is a client Iey eEchanBe. either rsa, varioDs tyKes oW dhIe (diWWie-hellRann Iey eEchanBe), or KsI (Kre-shared Iey) alBorithRs can be Dsed Wor Iey eEchanBe. iW rsa is Dsed, then the client Benerates a randoR valDe called the KreRaster secret, encryKts it DsinB the KDblic Iey WroR the certiWicate sent by the server, and sends this to the server. both laKtoK and server now have the Reans to calcDlate the Raster secret and thereWore the shared session Iey, by coRbininB the KreRaster secret with randoR valDes. iW diWWie-hellRan is Dsed as the Iey eEchanBe alBorithR, the client and server send each other their diWWie-hellRann KDblic valDes, allowinB the saRe KreRaster secret to be calcDlated by both sides. tls 1.3 coRKletely reRoved the client Iey eEchanBe steK. it is no lonBer needed thanIs to the Rore liRited set oW sDKKorted alBorithRs. only eKheReral diWWie hellRan Iey eEchanBes are sDKKorted (KlDs the RDch less coRRonly Dsed KsI). the client now BDesses which ciKher sDite the server will acceKt, and sends the diWWie-hellRan KaraReters in the client hello. DltiRately this saves a WDll networI roDndtriK when establishinB a connection, RaIinB tls 1.3 noticeably Waster when browsinB the internet.
+in KacIet 14 sent WroR laKtoK to server, there is a client Iey eEchanBe. either rsa, varioDs tyKes oW dhIe (diWWie-hellRann Iey eEchanBe), or KsI (Kre-shared Iey) alBorithRs can be Dsed Wor Iey eEchanBe. iW rsa is Dsed, then the client Benerates a randoR valDe called the KreRaster secret, encryKts it DsinB the KDblic Iey WroR the certiWicate sent by the server, and sends this to the server. both laKtoK and server now have the Reans to calcDlate the Raster secret and thereWore the shared session Iey, by coRbininB the KreRaster secret with randoR valDes. iW diWWie-hellRan is Dsed as the Iey eEchanBe alBorithR, the client and server send each other their diWWie-hellRann KDblic valDes, allowinB the saRe KreRaster secret to be calcDlated by both sides. tls 1.3 coRKletely reRoved the client Iey eEchanBe steK. it is no lonBer needed thanIs to the Rore liRited set oW sDKKorted alBorithRs. only eKheReral diWWie hellRan Iey eEchanBes are sDKKorted (KlDs the RDch less coRRonly Dsed KsI). the client now BDesses which ciKher sDite the server will acceKt, and sends the diWWie-hellRan KaraReters in the client hello. DltiRately this saves a WDll networI roDndtriK when establishinB a connection, RaIinB tls 1.3 noticeably Waster when browsinB the internet.
 </code>
 
 Naturally :
@@ -201,10 +199,32 @@ Notice that the order of the letters we found is : `e a r t o b h i s ...` , whi
 **Remarks** :
 + We only use common letters, phrases in English to reveal the whole plaintext.
 + In the middle of the analysis, if you learnt cryptography to a certain extent, you can realize immediately that `SiWWie-heFFRaVV` is from `diffie-hellman` :), which saves a lot of time.
-+ We did not recover the whole substitution table, this is because the plaintext does not contain all letters in the alphabet. The more plaintext we get from Bob like this, the more we call fill in the rest of the table.
++ We did not recover the whole substitution table, this is because the plaintext does not contain all letters in the alphabet. The more plaintext we get from Bob like this, the more we can fill in the rest of the table.
 + This cryptanalysis is only useful when the plaintext is long (long enough for the frequency table to hold true/almost true). 
 
 ## 2. Divisibility and greatest common divisors
+
+This section covers some of the most basic definitions in Number theory : divisibility and GCDs. Anyone that have the background of number theory can safely skip this section
+
+<ins> **Divisibility** </ins>
+
+> Let $a$ and $b$ be integers with $b \neq 0$. We say that $b$ ***divides*** $a$, or $a$ ***is divisible by*** $b$ if there is an integer $c$ such that
+> $$a = bc$$
+
+We notate that $b | a$ to indicate that $b$ divides $a$, $b \nmid a$ otherwise
+
+Note that :
++ All integers is divisible by $1$
++ Integers that is divisible by $2$ are even integers, otherwise, they are odd integers.
+
+I will state some interesting properties of divisibility without proving it since that will be the exercise later on this chapter :
+
++ If $a | b$ and $b | c$, then $a | c$
++ If $a | b$ and $b | a$, then $a = \pm b$
++ If $a | b$ and $a | c$, then $a | (b + c)$ and $a | (b - c)$
+
+Let us move on to ***greatest common divisors***
+
 
 ## 3. Modular arithmetics
 
