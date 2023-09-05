@@ -50,6 +50,7 @@ Here, the `ALPHABET` is not necessary to have only letters, it can contains any 
 
 So when we encrypt the plaintext : 
 `“A page of history is worth a volume of logic.”`
+
 , we get the ciphertext : 
 `“L alrp zq stdezcj td hzces l gzwfxp zq wzrtn.”`
 
@@ -70,6 +71,7 @@ def shift_decrypt(c: str, key: int):
 
 Using the function with the ciphertext and the key `11`, we achived this : 
 `therearenosecretsbetterthanthesecretesthateverybodyguesses`
+
 A little spacing reveals :
 `there are no secrets better than the secretes that everybody guesses`
 
@@ -88,6 +90,7 @@ def shift_decrypt_increment(c: str):
 Since the ciphertext is all in uppercase, so I will ease out my code a bit.
 So, the result is 
 `whenangrycounttenbeforeyouspeakifveryangryanhundred`
+
 A little spacing reveals :
 `when angry count ten before you speak if very angry an hundred`
 
