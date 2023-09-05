@@ -248,7 +248,37 @@ CVOQE JCGUW NVA`
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |39 |29 |29 |22 |21 |21 |20 |20 |19 |13 |11 |11 |10 | 8 | 8 | 6 | 5 | 5 | 5 | 4 | 3 | 2 | 1 | 1 |
 
-+ Most common bigrams in the ciphertext : `XC` (10 times), `NV` (7 times), and `CS, OV, QA, and SX` (6 times each)
++ Most common bigrams in the ciphertext : `XC` (10 times), `NV` (7 times), and `CS, OV, QA` and `SX` (6 times each)
 
 ---
+
+I will just put down the results here : 
+
+a. Plaintext : 
+
+`these characters as one might readily guess form a cipher that 
+is to say they convey a meaning but then from what is known of
+captain kiddi could not suppose him capable of constructing
+any of the more abstruse cryptographs i made up my mind at once
+that this was of a simple species such however as would appear
+to the crude intellect of the sailor absolutely
+insoluble without the key`
+
+b. Plaintext :
+
+`i was i think well educated for the standard of the day my sister
+and i had a german governess a very sentimental creature
+she taught us the language of flowers a forgotten study nowadays
+but most charming a yellow tulip for instance means hopeless
+love while a china aster means i die of jealousy at your feet`
+
+c. Plaintext :
+
+`i am fairly familiar with all forms of secret writing and am 
+myself author of a trifling monograph upon subject in which i
+analyze one hundred separate ciphers but i confess that this
+is entirely new to me object of those who invented this system
+has apparently been to conceal that these characters convey
+a message and to give idea that they are mere random sketches
+of children`
 
