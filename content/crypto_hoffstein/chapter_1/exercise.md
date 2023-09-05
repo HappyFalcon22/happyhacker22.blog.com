@@ -313,6 +313,13 @@ c. If \\(a | b\\) and \\(a | c\\), then \\(a | (b + c)\\) and \\(a | (b - c)\\)
 
 ---
 
+Proving these will be easy :
+
+a. Suppose \\(a | b\\) and \\(b | c\\), then :
+\\[ b = ax \\;\\;;\\; c = by \\]
+\\[ \longrightarrow c = a(xy) \\]
+\\[ \longrightarrow a | c \\]
+
 ## 1.7
 
 ---
