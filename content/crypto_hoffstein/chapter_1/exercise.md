@@ -14,15 +14,15 @@ I suggest reading the Chapter 1 material or you can have a look of the note [her
 
 Let's begin
 
-> <ins> ***1.1*** </ins> : 
-   a. Encrypt the following plaintext using a rotation of 11 clockwise :
- <span> “A page of history is worth a volume of logic.” </span>
+## 1.1 
+a. Encrypt the following plaintext using a rotation of 11 clockwise : 
+<span> `“A page of history is worth a volume of logic.”` </span>
    
-   b. Decrypt the following message, which was encrypted with a rotation of 7 clockwise :
- <span> `AOLYLHYLUVZLJYLAZILAALYAOHUAOLZLJYLALZAOHALCLYFIVKFNBLZZLZ` </span>
+b. Decrypt the following message, which was encrypted with a rotation of 7 clockwise :
+<span> `AOLYLHYLUVZLJYLAZILAALYAOHUAOLZLJYLALZAOHALCLYFIVKFNBLZZLZ` </span>
    
-   c. Decrypt the following message, which was encrypted by rotating 1 clockwise for the first letter, then 2 clockwise for the second letter, etc
- <span> `XJHRFTNZHMZGAHIUETXZJNBWNUTRHEPOMDNBJMAUGORFAOIZOCC` </span>  
+c. Decrypt the following message, which was encrypted by rotating 1 clockwise for the first letter, then 2 clockwise for the second letter, etc
+<span> `XJHRFTNZHMZGAHIUETXZJNBWNUTRHEPOMDNBJMAUGORFAOIZOCC` </span>  
 
 
 
