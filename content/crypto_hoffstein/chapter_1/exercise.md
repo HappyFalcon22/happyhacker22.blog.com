@@ -48,6 +48,13 @@ def shift_encrypt(m: str, key: int):
 
 Here, the `ALPHABET` is not necessary to have only letters, it can contains any character. In this textbook's context, we will work with the standard alphabet (26 English letters). Additionally, I modified the code so it can encrypt the plaintext without changing the non-letter char in the plaintext or changing the case of the plaintext's letter.
 
-So when we encrypt the plaintext : ```“A page of history is worth a volume of logic.”```, we get the ciphertext : ```“H whnl vm opzavyf pz dvyao h cvsbtl vm svnpj.”```
+So when we encrypt the plaintext : 
+```
+“A page of history is worth a volume of logic.”
+```
+, we get the ciphertext : 
+```
+“H whnl vm opzavyf pz dvyao h cvsbtl vm svnpj.”
+```
 
 
