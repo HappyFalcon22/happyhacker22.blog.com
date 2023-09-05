@@ -99,9 +99,17 @@ A little spacing reveals :
 
 Decrypt each of the following Caesar encryptions by trying the various possible
 shifts until you obtain readable text :
-a. `LWKLQNWKDWLVKDOOQHYHUVHHDELOOERDUGORYHOBDVDWUHH`
-b. `UXENRBWXCUXENFQRLQJUCNABFQNWRCJUCNAJCRXWORWMB`
-c. `BGUTBMBGZTFHNLXMKTIPBMAVAXXLXTEPTRLEXTOXKHHFYHKMAXFHNLX`
+a. 
+
+`LWKLQNWKDWLVKDOOQHYHUVHHDELOOERDUGORYHOBDVDWUHH`
+
+b. 
+
+`UXENRBWXCUXENFQRLQJUCNABFQNWRCJUCNAJCRXWORWMB`
+
+c. 
+
+`BGUTBMBGZTFHNLXMKTIPBMAVAXXLXTEPTRLEXTOXKHHFYHKMAXFHNLX`
 
 ---
 
@@ -115,7 +123,9 @@ Use this substitution table :
 | S | C | J | A | X | U | F | B | Q | K | T | P | R | W | E | Z | H | V | L | I | G | Y | D | N | M | O |
 
 a. Encrypt the message : `The gold is hidden in the garden.`
+
 b. Make the decryption table from this substitution table.
+
 c. Use the decryption table to decrypt the ciphertext : `IBXLX JVXIZ SLLDE VAQLL DEVAU QLB`
 
 ---
