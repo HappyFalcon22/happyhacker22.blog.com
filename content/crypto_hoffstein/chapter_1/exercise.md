@@ -282,3 +282,105 @@ has apparently been to conceal that these characters convey
 a message and to give idea that they are mere random sketches
 of children`
 
+## 1.5
+
+---
+
+Suppose that you have an alphabet of 26 letters.
+
+a. How many possible simple substitution ciphers are there?
+
+b. A letter in the alphabet is said to be **fixed** if the encryption of the letter is the letter itself. How many simple substitution ciphers are there that leave:
+
++ no letters fixed?
++ at least one letter fixed?
++ exactly one letter fixed?
++ at least two letters fixed?
+
+---
+
+## 1.6
+
+---
+
+Let \\(a, b, c, \in \mathbb{Z}\\). Use the definition of divisibility to directly prove the following properties of divisibility. (This is Proposition 1.4.)
+
+a. If \\(a | b\\) and \\(b | c\\), then \\(a | c\\)
+
+b. If \\(a | b\\) and \\(b | a\\), then \\(a = \pm b\\)
+
+c. If \\(a | b\\) and \\(a | c\\), then \\(a | (b + c)\\) and \\(a | (b - c)\\)
+
+---
+
+## 1.7
+
+---
+
+Use a calculator and the method described in Remark 1.9 to compute the following quotients and remainders :
+
+a. \\(34787\\) divided by \\(353\\)
+
+b. \\(238792\\) divided by \\(7843\\)
+
+c. \\(9829387493\\) divided by \\(873485\\)
+
+d. \\(1498387487\\) divided by \\(76348\\)
+
+---
+
+## 1.8
+
+---
+
+Use a calculator and the method described in Remark 1.9 to compute the following remainders, without bothering to compute the associated quotients :
+
+a. The remainder of \\(78745\\) divided by \\(127\\)
+
+b. The remainder of \\(2837647\\) divided by \\(4387\\)
+
+c. The remainder of \\(8739287463\\) divided by \\(18754\\)
+
+d. The remainder of \\(4536782793\\) divided by \\(9784537\\)
+
+---
+
+## 1.9
+
+---
+
+Use the Euclidean algorithm to compute the following greatest common divisors :
+
+a. \\(gcd(291, 252)\\)
+
+b. \\(gcd(16261, 85652)\\)
+
+c. \\(gcd(139024789, 93278890)\\)
+
+d. \\(gcd(16534528044, 8332745927)\\)
+
+---
+
+## 1.10
+
+---
+
+For each of the \\(gcd(a, b)\\) values in Exercise 1.9, use the extended Euclidean algorithm (Theorem 1.11) to find integers \\(u\\) and \\(v\\) such that \\(au + bv = gcd(a, b)\\).
+
+---
+
+## 1.11
+
+---
+
+Let \\(a\\) and \\(b\\) be positive integers.
+
+a. Suppose that there are integers \\(u\\) and \\(v\\) satisfying \\(au + bv = 1\\). Prove that \\(gcd(a, b) = 1\\)
+
+b. Suppose that there are integers \\(u\\) and \\(v\\) satisfying \\(au + bv = 6\\). Is it necessarily true that \\(gcd(a, b) = 6\\)? If not, give a specific counterexample, and describe in general all of the possible values of \\(gcd(a, b)\\)
+
+c. Suppose that \\((u_1, v_1)\\) and \\((u_2, v_2)\\) are two solutions in integers to the equation \\(au + bv = 1\\). Prove that a divides \\(v_2 − v_1\\) and that b divides \\(u_2 − u_1\\)
+
+d. More generally, let \\(g = gcd(a, b)\\) and let \\((u_0, v_0)\\) be a solution in integers to \\(au + bv = g\\). Prove that every other solution has the form \\(u = u_0 + \dfrac{kb}{g}\\) and \\(v = v_0 − \dfrac{ka}{g}\\) for some integer \\(k\\). (This is the second part of Theorem 1.11.)
+
+---
