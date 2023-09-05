@@ -94,4 +94,79 @@ So, the result is
 A little spacing reveals :
 `when angry count ten before you speak if very angry an hundred`
 
+## 1.2 
+---
+
+Decrypt each of the following Caesar encryptions by trying the various possible
+shifts until you obtain readable text :
+a. `LWKLQNWKDWLVKDOOQHYHUVHHDELOOERDUGORYHOBDVDWUHH`
+b. `UXENRBWXCUXENFQRLQJUCNABFQNWRCJUCNAJCRXWORWMB`
+c. `BGUTBMBGZTFHNLXMKTIPBMAVAXXLXTEPTRLEXTOXKHHFYHKMAXFHNLX`
+
+---
+
+## 1.3
+---
+
+Use this substitution table :
+
+| a | b | c | d | e | f | g | h | i | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x | y | z |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| S | C | J | A | X | U | F | B | Q | K | T | P | R | W | E | Z | H | V | L | I | G | Y | D | N | M | O |
+
+a. Encrypt the message : `The gold is hidden in the garden.`
+b. Make the decryption table from this substitution table.
+c. Use the decryption table to decrypt the ciphertext : `IBXLX JVXIZ SLLDE VAQLL DEVAU QLB`
+
+---
+
+# 1.4
+
+---
+
+Each of the following messages has been encrypted using a simple substitution
+cipher. Decrypt them. For your convenience, we have given you a frequency table and a list of the most common bigrams that appear in the ciphertext.
+
+a. ***"A Piratical Treasure"***
++ Ciphertext : 
+
+`JNRZR BNIGI BJRGZ IZLQR OTDNJ GRIHT USDKR ZZWLG OIBTM NRGJN
+IJTZJ LZISJ NRSBL QVRSI ORIQT QDEKJ JNRQW GLOFN IJTZX QLFQL
+WBIMJ ITQXT HHTBL KUHQL JZKMM LZRNT OBIMI EURLW BLQZJ GKBJT
+QDIQS LWJNR OLGRI EZJGK ZRBGS MJLDG IMNZT OIHRK MOSOT QHIJL
+QBRJN IJJNT ZFIZL WIZTO MURZM RBTRZ ZKBNN LFRVR GIZFL KUHIM
+MRIGJ LJNRB GKHRT QJRUU RBJLW JNRZI TULGI EZLUK JRUST QZLUK
+EURFT JNLKJ JNRXR S`
+
++ Frequency table : 
++ Most common bigrams in the ciphertext :
+
+b. ***"A Botanical Code"***
++ Ciphertext : 
+
+`KZRNK GJKIP ZBOOB XLCRG BXFAU GJBNG RIXRU XAFGJ BXRME MNKNG
+BURIX KJRXR SBUER ISATB UIBNN RTBUM NBIGK EBIGR OCUBR GLUBN
+JBGRL SJGLN GJBOR ISLRS BAFFO AZBUN RFAUS AGGBI NGLXM IAZRX
+RMNVL GEANG CJRUE KISRM BOOAZ GLOKW FAUKI NGRIC BEBRI NJAWB
+OBNNO ATBZJ KOBRC JKIRR NGBUE BRINK XKBAF QBROA LNMRG MALUF
+BBG`
+
++ Frequency table : 
++ Most common bigrams in the ciphertext :
+
+c. ***“A Brilliant Detective”*** (this ciphertext does not contain the word `the`)
++ Ciphertext :
+
+`GSZES GNUBE SZGUG SNKGX CSUUE QNZOQ EOVJN VXKNG XGAHS AWSZZ
+BOVUE SIXCQ NQESX NGEUG AHZQA QHNSP CIPQA OIDLV JXGAK CGJCG
+SASUB FVQAV CIAWN VWOVP SNSXV JGPCV NODIX GJQAE VOOXC SXXCG
+OGOVA XGNVU BAVKX QZVQD LVJXQ EXCQO VKCQG AMVAX VWXCG OOBOX
+VZCSO SPPSN VAXUB DVVAX QJQAJ VSUXC SXXCV OVJCS NSJXV NOJQA
+MVBSZ VOOSH VSAWX QHGMV GWVSX CSXXC VBSNV ZVNVN SAWQZ ORVXJ
+CVOQE JCGUW NVA`
+
++ Frequency table : 
++ Most common bigrams in the ciphertext :
+
+---
 
