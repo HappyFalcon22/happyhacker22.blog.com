@@ -49,9 +49,11 @@ def shift_encrypt(m: str, key: int):
 Here, the `ALPHABET` is not necessary to have only letters, it can contains any character. In this textbook's context, we will work with the standard alphabet (26 English letters). Additionally, I modified the code so it can encrypt the plaintext without changing the non-letter char in the plaintext or changing the case of the plaintext's letter.
 
 So when we encrypt the plaintext : 
+
 `“A page of history is worth a volume of logic.”`
 
 , we get the ciphertext : 
+
 `“L alrp zq stdezcj td hzces l gzwfxp zq wzrtn.”`
 
 Now we will build the decryption method : 
@@ -70,9 +72,11 @@ def shift_decrypt(c: str, key: int):
 ```
 
 Using the function with the ciphertext and the key `11`, we achived this : 
+
 `therearenosecretsbetterthanthesecretesthateverybodyguesses`
 
 A little spacing reveals :
+
 `there are no secrets better than the secretes that everybody guesses`
 
 The last one is a bit tricky, but this kind of encryption doesn't need the key for decryption, since we know the shift amount of all characters in the plaintext when encrypted to ciphertext :
@@ -88,10 +92,12 @@ def shift_decrypt_increment(c: str):
 ```
 
 Since the ciphertext is all in uppercase, so I will ease out my code a bit.
-So, the result is 
+So, the result is
+
 `whenangrycounttenbeforeyouspeakifveryangryanhundred`
 
 A little spacing reveals :
+
 `when angry count ten before you speak if very angry an hundred`
 
 ## 1.2 
@@ -99,6 +105,7 @@ A little spacing reveals :
 
 Decrypt each of the following Caesar encryptions by trying the various possible
 shifts until you obtain readable text :
+
 a. 
 
 `LWKLQNWKDWLVKDOOQHYHUVHHDELOOERDUGORYHOBDVDWUHH`
@@ -112,6 +119,22 @@ c.
 `BGUTBMBGZTFHNLXMKTIPBMAVAXXLXTEPTRLEXTOXKHHFYHKMAXFHNLX`
 
 ---
+
+Since there are only \\(26\\) cases of the key, we can just bruteforce all cases to find the readable message. Of course, before the computer age, all cryptographers must do by hand, which consumes too much time !! I will just do it on Python
+
+```Python
+def caesar_bruteforce(c: str):
+    for k in range(len(ALPHABET)):
+        print(shift_decrypt(c, k).lower(), k)
+```
+
+The result is :
+
+a. `i think that i shall never see a billboard lovely as a tree` with the key \\(k = 3\\)
+
+b. `love is not love which alters when it alteration finds` with the key \\(k = 9\\)
+
+c. `in baiting a mouse trap with cheese always leave room for the mouse` with the key \\(k = 19\\)
 
 ## 1.3
 ---
