@@ -153,6 +153,39 @@ c. Use the decryption table to decrypt the ciphertext : `IBXLX JVXIZ SLLDE VAQLL
 
 ---
 
+Let's make the encryption - decryption substitution cipher in Python before solving this exercise : 
+
+```Python
+def encrypt_substitution(m: str, alp_m: str, alp_c: str):
+    c = ""
+    for x in m:
+        if x not in alp_m:
+            c += x
+        else:
+            c += alp_c[alp_m.index(x)]
+    return c
+```
+
+Example usage : 
+
+```Python
+alp_m = "abcdefghijklmnopqrstuvwxyz"
+alp_c = "SCJAXUFBQKTPRWEZHVLIGYDNMO"
+m = "The gold is hidden in the garden.".lower()
+print(encrypt_substitution(m, alp_m, alp_c))
+```
+
+a. The ciphertext is : `IBX FEPA QL BQAAXW QW IBX FSVAXW.`
+
+b. The decryption table : 
+
+| A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| d | h | b | w | o | g | u | q | t | c | j | s | y | x | z | l | i | m | a | k | f | r | n | e | v | p |
+
+c. The plaintext using the decryption table from b. is : `the secret password is swordfish`
+
+
 # 1.4
 
 ---
