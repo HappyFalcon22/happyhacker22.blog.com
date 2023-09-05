@@ -205,7 +205,12 @@ MRIGJ LJNRB GKHRT QJRUU RBJLW JNRZI TULGI EZLUK JRUST QZLUK
 EURFT JNLKJ JNRXR S`
 
 + Frequency table : 
-+ Most common bigrams in the ciphertext :
+
+| R | J | I | L | Z | T | N | Q | B | G | K | U | M | O | S | H | W | F | E | D | X | V |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|33 |30 |27 |25 |24 |20 |19 |16 |15 |15 |13 |12 |12 |10 | 9 | 8 | 7 | 6 | 5 | 5 | 3 | 2 |
+
++ Most common bigrams in the ciphertext : `JN` (11 times), `NR` (8 times), `TQ` (6 times), and `LW`, `RB`, `RZ`, and `JL` (5 times each)
 
 b. ***"A Botanical Code"***
 + Ciphertext : 
@@ -218,7 +223,13 @@ OBNNO ATBZJ KOBRC JKIRR NGBUE BRINK XKBAF QBROA LNMRG MALUF
 BBG`
 
 + Frequency table : 
-+ Most common bigrams in the ciphertext :
+
+| B | R | G | N | A | I | U | K | O | J | L | X | M | F | S | E | Z | C | T | W | P | V | Q |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|32 |28 |22 |20 |16 |16 |14 |13 |12 |11 |10 |10 | 8 | 8 | 7 | 7 | 6 | 5 | 3 | 2 | 1 | 1 | 1 |
+
+
++ Most common bigrams in the ciphertext : `NG` and `RI` (7 times each), `BU` (6 times), and `BR` (5 times)
 
 c. ***“A Brilliant Detective”*** (this ciphertext does not contain the word `the`)
 + Ciphertext :
@@ -232,7 +243,12 @@ MVBSZ VOOSH VSAWX QHGMV GWVSX CSXXC VBSNV ZVNVN SAWQZ ORVXJ
 CVOQE JCGUW NVA`
 
 + Frequency table : 
-+ Most common bigrams in the ciphertext :
+
+| V | S | X | G | A | O | Q | C | N | J | U | Z | E | W | B | P | I | H | K | D | M | L | R | F |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|39 |29 |29 |22 |21 |21 |20 |20 |19 |13 |11 |11 |10 | 8 | 8 | 6 | 5 | 5 | 5 | 4 | 3 | 2 | 1 | 1 |
+
++ Most common bigrams in the ciphertext : `XC` (10 times), `NV` (7 times), and `CS, OV, QA, and SX` (6 times each)
 
 ---
 
